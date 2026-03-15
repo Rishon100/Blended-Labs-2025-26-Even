@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: V Rishon Anand
+* **Register Number**: 212224240135
+* **Date of Submission**: 15/03/2026
 
 ---
 
@@ -98,11 +98,11 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Open AWS Management Console → EC2 → Launch Instance and name the instance Web Server in the N. Virginia region.
+2. Select Amazon Linux 2023 AMI, choose t2.micro instance type, and select the vockey key pair.
+3. Configure Network Settings by selecting Lab VPC, PublicSubnet1, and create a Web Server security group.
+4. Enable termination protection and add a User Data script to install and start the Apache web server.
+5. Launch the instance and monitor it using Status Checks, CloudWatch monitoring, system logs, and instance screenshot.
 
 ---
 
@@ -110,7 +110,7 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+
 
 ---
 
