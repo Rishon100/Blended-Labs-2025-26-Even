@@ -67,11 +67,21 @@ Students test the setup by generating traffic and observing automatic scaling an
 ## Workflow (To be filled by Student)
 
 Describe step-by-step how you performed this experiment in your own words.
-
+Step 1: Create AMI from Web Server 1
+Step 2: Create Target Group & Load Balancer
+Step 3: Create Launch Template
+Step 4: Create Auto Scaling Group
+Step 5: Test Load Balancing & Auto Scaling
+Step 6: Terminate Web Server 1
 ---
 
 ## Output Screenshots 
 
+<img width="1919" height="1027" alt="Screenshot 2026-03-14 211612" src="https://github.com/user-attachments/assets/a2149c76-cf09-41c1-a401-77c742351fd4" />
+
+<img width="1919" height="1032" alt="Screenshot 2026-03-14 211850" src="https://github.com/user-attachments/assets/75dc550f-6b3f-4bb9-ac33-d1a7e1135844" />
+
+<img width="1919" height="982" alt="Screenshot 2026-03-14 212144" src="https://github.com/user-attachments/assets/92774633-5c52-4d76-aec4-b4029ca1fb2b" />
 
 ---
 
