@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: V RISHON ANAND
+* **Register Number**: 212224240135
+* **Date of Submission**: 18/03/2026
 
 ---
 
@@ -84,12 +84,10 @@ Test the database server by connecting to it locally or remotely and performing 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
+Step 1: Create DB Security Group (allow MySQL 3306 from Web Security Group)
+Step 2: Create DB Subnet Group (2 AZ subnets)
+Step 3: Create RDS MySQL DB (Multi-AZ, lab-db)
+Step 4: Connect web app to database using endpoint
 ---
 
 ## Output Screenshots (Attach 3)
@@ -97,18 +95,21 @@ Test the database server by connecting to it locally or remotely and performing 
 ### Screenshot 1: EC2 Instance for Database Server
 
 (Insert Screenshot Here)
+<img width="1919" height="1032" alt="Screenshot 2026-03-14 201817" src="https://github.com/user-attachments/assets/56e291bc-4c27-4771-9988-9ae38fdbb187" />
 
 ---
 
 ### Screenshot 2: Database Service Running
 
 (Insert Screenshot Here)
+<img width="1919" height="1030" alt="Screenshot 2026-03-14 201946" src="https://github.com/user-attachments/assets/f6dee63e-edac-478d-b280-e7b0a1520b60" />
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
 (Insert Screenshot Here)
+<img width="1919" height="1043" alt="Screenshot 2026-03-14 202313" src="https://github.com/user-attachments/assets/385dcf31-fdbd-465e-bd41-9c8fd7dcb325" />
 
 ---
 
